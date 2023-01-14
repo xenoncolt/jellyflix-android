@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "org.jellyfin.mobile.debug",
+  "variantName": "proprietaryDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 199,
+      "versionName": "0.0.1",
+      "outputFile": "jellyfin-android-v0.0.1-proprietary-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}

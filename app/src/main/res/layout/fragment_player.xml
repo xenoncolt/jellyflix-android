@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@drawable/ripple_background" />
+
+    <FrameLayout
+        android:id="@+id/player_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/gesture_overlay_layout"
+            android:layout_width="@dimen/exo_gesture_overlay_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/playback_info_background"
+            android:clickable="false"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/gesture_overlay_image"
+                android:layout_width="@dimen/exo_gesture_overlay_image_size"
+                android:layout_height="@dimen/exo_gesture_overlay_image_size"
+                android:layout_marginVertical="16dp"
+                tools:srcCompat="@drawable/ic_brightness_white_24dp" />
+
+            <ProgressBar
+                android:id="@+id/gesture_overlay_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                tools:progress="50" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/loading_indicator"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/playback_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="@dimen/exo_player_controls_display_padding"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="@dimen/exo_player_controls_display_padding"
+            android:layout_marginBottom="96dp"
+            android:background="@drawable/playback_info_background"
+            android:clickable="true"
+            android:padding="16dp"
+            android:visibility="gone"
+            tools:ignore="KeyboardInaccessibleWidget"
+            tools:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/unlock_screen_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|top"
+            android:layout_marginStart="@dimen/exo_player_controls_display_padding"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="@dimen/exo_player_controls_display_padding"
+            android:background="@drawable/playback_unlock_background"
+            android:clickable="true"
+            android:padding="16dp"
+            android:src="@drawable/ic_screen_unlock_white_24dp"
+            android:visibility="gone"
+            tools:ignore="KeyboardInaccessibleWidget"
+            tools:visibility="visible" />
+    </FrameLayout>
+</FrameLayout>

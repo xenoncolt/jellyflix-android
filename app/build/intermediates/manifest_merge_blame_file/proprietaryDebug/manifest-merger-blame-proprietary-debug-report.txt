@@ -1,0 +1,317 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.jellyfin.mobile.debug"
+4    android:installLocation="auto"
+5    android:versionCode="199"
+6    android:versionName="0.0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:5:5-76
+12-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:5:22-73
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:6:5-67
+13-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:7:5-68
+14-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:7:22-65
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:8:5-68
+15-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:8:22-65
+16    <uses-permission
+16-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:12:5-15:40
+17        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+17-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:13:9-65
+18        android:maxSdkVersion="28" />
+18-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:14:9-35
+19
+20    <queries>
+20-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:17:5-27:15
+21        <intent>
+21-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:18:9-21:18
+22            <action android:name="android.intent.action.VIEW" />
+22-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:19:13-65
+22-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:19:21-62
+23
+24            <data android:mimeType="*/*" />
+24-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:20:13-44
+24-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:20:19-41
+25        </intent>
+26
+27        <package android:name="com.mxtech.videoplayer.ad" />
+27-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:23:9-61
+27-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:23:18-58
+28        <package android:name="com.mxtech.videoplayer.pro" />
+28-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:24:9-62
+28-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:24:18-59
+29        <package android:name="is.xyz.mpv" />
+29-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:25:9-46
+29-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:25:18-43
+30        <package android:name="org.videolan.vlc" />
+30-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:26:9-52
+30-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:26:18-49
+31        <package android:name="com.google.android.gms.policy_cast_dynamite" />
+31-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\shsha\.gradle\caches\transforms-3\f6ec27c497c76874e33d06536b9728d9\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:13:9-79
+31-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\shsha\.gradle\caches\transforms-3\f6ec27c497c76874e33d06536b9728d9\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:13:18-76
+32    </queries>
+33    <!-- This permission is required to start foreground services in Android P. -->
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+34-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\shsha\.gradle\caches\transforms-3\f6ec27c497c76874e33d06536b9728d9\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:10:5-77
+34-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\shsha\.gradle\caches\transforms-3\f6ec27c497c76874e33d06536b9728d9\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:10:22-74
+35    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+35-->[org.jellyfin.sdk:jellyfin-core-android-debug:1.4.0] C:\Users\shsha\.gradle\caches\transforms-3\02ffaff144dc653814fe9bf73d17fa42\transformed\jetified-jellyfin-core-debug\AndroidManifest.xml:10:5-79
+35-->[org.jellyfin.sdk:jellyfin-core-android-debug:1.4.0] C:\Users\shsha\.gradle\caches\transforms-3\02ffaff144dc653814fe9bf73d17fa42\transformed\jetified-jellyfin-core-debug\AndroidManifest.xml:10:22-76
+36
+37    <permission
+37-->[androidx.core:core:1.9.0] C:\Users\shsha\.gradle\caches\transforms-3\027a158db43fa3bdd3af7d186146d715\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+38        android:name="org.jellyfin.mobile.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.9.0] C:\Users\shsha\.gradle\caches\transforms-3\027a158db43fa3bdd3af7d186146d715\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.9.0] C:\Users\shsha\.gradle\caches\transforms-3\027a158db43fa3bdd3af7d186146d715\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="org.jellyfin.mobile.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.9.0] C:\Users\shsha\.gradle\caches\transforms-3\027a158db43fa3bdd3af7d186146d715\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.9.0] C:\Users\shsha\.gradle\caches\transforms-3\027a158db43fa3bdd3af7d186146d715\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+42
+43    <application
+43-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:29:5-86:19
+44        android:name="org.jellyfin.mobile.JellyfinApplication"
+44-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:30:9-44
+45        android:allowBackup="true"
+45-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:31:9-35
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.9.0] C:\Users\shsha\.gradle\caches\transforms-3\027a158db43fa3bdd3af7d186146d715\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+47        android:debuggable="true"
+48        android:fullBackupContent="@xml/backup_content"
+48-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:32:9-56
+49        android:icon="@mipmap/ic_launcher"
+49-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:33:9-43
+50        android:label="@string/app_name"
+50-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:34:9-41
+51        android:networkSecurityConfig="@xml/network_security_config"
+51-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:35:9-69
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:36:9-54
+53        android:supportsRtl="true"
+53-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:37:9-35
+54        android:theme="@style/AppTheme.Starting" >
+54-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:38:9-49
+55        <activity
+55-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:41:9-56:20
+56            android:name="org.jellyfin.mobile.MainActivity"
+56-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:42:13-41
+57            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboard|keyboardHidden|uiMode"
+57-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:43:13-122
+58            android:exported="true"
+58-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:44:13-36
+59            android:launchMode="singleTask"
+59-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:45:13-44
+60            android:supportsPictureInPicture="true" >
+60-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:46:13-52
+61            <intent-filter>
+61-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:47:13-50:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:48:17-69
+62-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:48:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:49:17-77
+64-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:49:27-74
+65            </intent-filter>
+66            <!-- declare legacy support for voice actions -->
+67            <intent-filter>
+67-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:52:13-55:29
+68                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+68-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:53:17-86
+68-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:53:25-83
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:54:17-76
+70-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:54:27-73
+71            </intent-filter>
+72        </activity>
+73
+74        <service android:name="org.jellyfin.mobile.webapp.RemotePlayerService" />
+74-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:58:9-63
+74-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:58:18-60
+75        <service
+75-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:60:9-67:19
+76            android:name="org.jellyfin.mobile.player.audio.MediaService"
+76-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:61:13-73
+77            android:exported="true" >
+77-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:62:13-36
+78            <intent-filter>
+78-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:64:13-66:29
+79                <action android:name="android.media.browse.MediaBrowserService" />
+79-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:65:17-83
+79-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:65:25-80
+80            </intent-filter>
+81        </service>
+82
+83        <receiver
+83-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:69:9-72:47
+84            android:name="androidx.mediarouter.media.MediaTransferReceiver"
+84-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:70:13-76
+85            android:exported="true" />
+85-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:71:13-36
+86
+87        <meta-data
+87-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:74:9-76:69
+88            android:name="com.google.android.gms.version"
+88-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:75:13-58
+89            android:value="@integer/google_play_services_version" />
+89-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:76:13-66
+90        <meta-data
+90-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:77:9-79:83
+91            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+91-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:78:13-93
+92            android:value="org.jellyfin.mobile.player.cast.CastOptionsProvider" />
+92-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:79:13-80
+93        <meta-data
+93-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:80:9-82:59
+94            android:name="com.google.android.gms.car.application"
+94-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:81:13-66
+95            android:resource="@xml/automotive_app_desc" />
+95-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:82:13-56
+96        <meta-data
+96-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:83:9-85:60
+97            android:name="com.google.android.gms.car.notification.SmallIcon"
+97-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:84:13-77
+98            android:resource="@mipmap/ic_launcher_round" />
+98-->C:\Users\shsha\Desktop\Beta\jellyflix-android\app\src\main\AndroidManifest.xml:85:13-57
+99
+100        <activity android:name="com.melegy.redscreenofdeath.internal.RedScreenOfDeathActivity" />
+100-->[com.mlegy.redscreenofdeath:red-screen-of-death:0.1.3] C:\Users\shsha\.gradle\caches\transforms-3\d3f08b2ffdd8821f88e2bc67349314c9\transformed\jetified-red-screen-of-death-0.1.3\AndroidManifest.xml:12:9-98
+100-->[com.mlegy.redscreenofdeath:red-screen-of-death:0.1.3] C:\Users\shsha\.gradle\caches\transforms-3\d3f08b2ffdd8821f88e2bc67349314c9\transformed\jetified-red-screen-of-death-0.1.3\AndroidManifest.xml:12:19-95
+101
+102        <receiver
+102-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\shsha\.gradle\caches\transforms-3\f6ec27c497c76874e33d06536b9728d9\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:17:9-19:40
+103            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+103-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\shsha\.gradle\caches\transforms-3\f6ec27c497c76874e33d06536b9728d9\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:18:13-91
+104            android:exported="false" />
+104-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\shsha\.gradle\caches\transforms-3\f6ec27c497c76874e33d06536b9728d9\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:19:13-37
+105
+106        <service
+106-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\shsha\.gradle\caches\transforms-3\f6ec27c497c76874e33d06536b9728d9\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:21:9-24:61
+107            android:name="com.google.android.gms.cast.framework.media.MediaNotificationService"
+107-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\shsha\.gradle\caches\transforms-3\f6ec27c497c76874e33d06536b9728d9\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:22:13-96
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\shsha\.gradle\caches\transforms-3\f6ec27c497c76874e33d06536b9728d9\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:23:13-37
+109            android:foregroundServiceType="mediaPlayback" />
+109-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\shsha\.gradle\caches\transforms-3\f6ec27c497c76874e33d06536b9728d9\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:24:13-58
+110        <service
+110-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\shsha\.gradle\caches\transforms-3\f6ec27c497c76874e33d06536b9728d9\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:25:9-27:40
+111            android:name="com.google.android.gms.cast.framework.ReconnectionService"
+111-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\shsha\.gradle\caches\transforms-3\f6ec27c497c76874e33d06536b9728d9\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:26:13-85
+112            android:exported="false" />
+112-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\shsha\.gradle\caches\transforms-3\f6ec27c497c76874e33d06536b9728d9\transformed\jetified-play-services-cast-framework-21.2.0\AndroidManifest.xml:27:13-37
+113
+114        <activity
+114-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\shsha\.gradle\caches\transforms-3\eec816393e8b8bbb7dfdad2e24618348\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+115-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\shsha\.gradle\caches\transforms-3\eec816393e8b8bbb7dfdad2e24618348\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\shsha\.gradle\caches\transforms-3\eec816393e8b8bbb7dfdad2e24618348\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\shsha\.gradle\caches\transforms-3\eec816393e8b8bbb7dfdad2e24618348\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+118
+119        <provider
+119-->[androidx.emoji2:emoji2:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\708f250ecfbeaf4d63782aba1830c03f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+120            android:name="androidx.startup.InitializationProvider"
+120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\708f250ecfbeaf4d63782aba1830c03f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+121            android:authorities="org.jellyfin.mobile.debug.androidx-startup"
+121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\708f250ecfbeaf4d63782aba1830c03f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+122            android:exported="false" >
+122-->[androidx.emoji2:emoji2:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\708f250ecfbeaf4d63782aba1830c03f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+123            <meta-data
+123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\708f250ecfbeaf4d63782aba1830c03f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+124                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+124-->[androidx.emoji2:emoji2:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\708f250ecfbeaf4d63782aba1830c03f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+125                android:value="androidx.startup" />
+125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\708f250ecfbeaf4d63782aba1830c03f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+126            <meta-data
+126-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\shsha\.gradle\caches\transforms-3\0c5e9a624c021150b38828332af1872b\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:31:13-33:52
+127                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+127-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\shsha\.gradle\caches\transforms-3\0c5e9a624c021150b38828332af1872b\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:32:17-78
+128                android:value="androidx.startup" />
+128-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\shsha\.gradle\caches\transforms-3\0c5e9a624c021150b38828332af1872b\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:33:17-49
+129            <meta-data
+129-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+130                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+130-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+131                android:value="androidx.startup" />
+131-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+132        </provider>
+133
+134        <service
+134-->[androidx.room:room-runtime:2.4.3] C:\Users\shsha\.gradle\caches\transforms-3\aa3deec6ca905c362589029938d85c2b\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+135            android:name="androidx.room.MultiInstanceInvalidationService"
+135-->[androidx.room:room-runtime:2.4.3] C:\Users\shsha\.gradle\caches\transforms-3\aa3deec6ca905c362589029938d85c2b\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+136            android:directBootAware="true"
+136-->[androidx.room:room-runtime:2.4.3] C:\Users\shsha\.gradle\caches\transforms-3\aa3deec6ca905c362589029938d85c2b\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+137            android:exported="false" />
+137-->[androidx.room:room-runtime:2.4.3] C:\Users\shsha\.gradle\caches\transforms-3\aa3deec6ca905c362589029938d85c2b\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+138
+139        <receiver
+139-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+140            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+140-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+141            android:directBootAware="false"
+141-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+142            android:enabled="true"
+142-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+143            android:exported="true"
+143-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+144            android:permission="android.permission.DUMP" >
+144-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+145            <intent-filter>
+145-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+146                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+146-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+146-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+147            </intent-filter>
+148            <intent-filter>
+148-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+149                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+149-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+149-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\shsha\.gradle\caches\transforms-3\49be4b585ae8d444d40c6ff2d8290ef8\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+150            </intent-filter>
+151        </receiver>
+152
+153        <service
+153-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\shsha\.gradle\caches\transforms-3\5040a60c9b5712bd05f8f0d3e6e52dab\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:29:9-35:19
+154            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+154-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\shsha\.gradle\caches\transforms-3\5040a60c9b5712bd05f8f0d3e6e52dab\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:30:13-103
+155            android:exported="false" >
+155-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\shsha\.gradle\caches\transforms-3\5040a60c9b5712bd05f8f0d3e6e52dab\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:31:13-37
+156            <meta-data
+156-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\shsha\.gradle\caches\transforms-3\5040a60c9b5712bd05f8f0d3e6e52dab\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:32:13-34:39
+157                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+157-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\shsha\.gradle\caches\transforms-3\5040a60c9b5712bd05f8f0d3e6e52dab\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:33:17-94
+158                android:value="cct" />
+158-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\shsha\.gradle\caches\transforms-3\5040a60c9b5712bd05f8f0d3e6e52dab\transformed\jetified-transport-backend-cct-3.1.3\AndroidManifest.xml:34:17-36
+159        </service>
+160        <service
+160-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\shsha\.gradle\caches\transforms-3\5227b50657e687887e6da0dfacc30413\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:26:9-30:19
+161            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+161-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\shsha\.gradle\caches\transforms-3\5227b50657e687887e6da0dfacc30413\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:27:13-117
+162            android:exported="false"
+162-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\shsha\.gradle\caches\transforms-3\5227b50657e687887e6da0dfacc30413\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:28:13-37
+163            android:permission="android.permission.BIND_JOB_SERVICE" >
+163-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\shsha\.gradle\caches\transforms-3\5227b50657e687887e6da0dfacc30413\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:29:13-69
+164        </service>
+165
+166        <receiver
+166-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\shsha\.gradle\caches\transforms-3\5227b50657e687887e6da0dfacc30413\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:32:9-34:40
+167            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+167-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\shsha\.gradle\caches\transforms-3\5227b50657e687887e6da0dfacc30413\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:33:13-132
+168            android:exported="false" />
+168-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\shsha\.gradle\caches\transforms-3\5227b50657e687887e6da0dfacc30413\transformed\jetified-transport-runtime-3.1.3\AndroidManifest.xml:34:13-37
+169    </application>
+170
+171</manifest>

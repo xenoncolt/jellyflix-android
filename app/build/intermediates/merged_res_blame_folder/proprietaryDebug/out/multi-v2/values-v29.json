@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.jellyfin.mobile.app-mergeProprietaryDebugResources-79:/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\shsha\\Desktop\\Beta\\jellyflix-android\\app\\src\\main\\res\\values-v29\\styles.xml",
+                    "from": {
+                        "startLines": "6,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "242,88",
+                        "endLines": "6,4",
+                        "endColumns": "51,12",
+                        "endOffsets": "289,234"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "113,164",
+                        "endLines": "3,6",
+                        "endColumns": "50,12",
+                        "endOffsets": "159,308"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shsha\\.gradle\\caches\\transforms-3\\6e7b46c9ae164cd471973984db03cbe5\\transformed\\jetified-core-splashscreen-1.0.0\\res\\values-v29\\values-v29.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,374",
+                        "endLines": "6,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "369,464"
+                    },
+                    "to": {
+                        "startLines": "7,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "313,632",
+                        "endLines": "11,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "627,722"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shsha\\Desktop\\Beta\\jellyflix-android\\app\\src\\main\\res\\values-v29\\dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "57",
+                        "endOffsets": "110"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

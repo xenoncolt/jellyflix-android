@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.jellyfin.mobile.app-mergeProprietaryDebugResources-79:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\shsha\\.gradle\\caches\\transforms-3\\027a158db43fa3bdd3af7d186146d715\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shsha\\.gradle\\caches\\transforms-3\\f4c544ec40f09ad27c6bf42d9e25081c\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

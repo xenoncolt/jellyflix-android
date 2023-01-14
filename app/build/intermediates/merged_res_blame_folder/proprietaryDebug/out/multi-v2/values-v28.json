@@ -1,0 +1,57 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.jellyfin.mobile.app-mergeProprietaryDebugResources-79:/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\shsha\\.gradle\\caches\\transforms-3\\557bf41992da8b44b1cb2a641744850c\\transformed\\material-1.7.0\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,248,343,441,529,617,705,793,880,967,1054",
+                        "endColumns": "97,94,94,97,87,87,87,87,86,86,86,86",
+                        "endOffsets": "148,243,338,436,524,612,700,788,875,962,1049,1136"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shsha\\.gradle\\caches\\transforms-3\\f4c544ec40f09ad27c6bf42d9e25081c\\transformed\\appcompat-1.5.1\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,397",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,392,584"
+                    },
+                    "to": {
+                        "startLines": "18,19,20,24",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1338,1413,1500,1680",
+                        "endLines": "18,19,23,27",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "1408,1495,1675,1867"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shsha\\Desktop\\Beta\\jellyflix-android\\app\\src\\main\\res\\values-v28\\styles.xml",
+                    "from": {
+                        "startLines": "6,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "225,74",
+                        "endLines": "6,4",
+                        "endColumns": "51,12",
+                        "endOffsets": "272,217"
+                    },
+                    "to": {
+                        "startLines": "14,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "1141,1192",
+                        "endLines": "14,17",
+                        "endColumns": "50,12",
+                        "endOffsets": "1187,1333"
+                    }
+                }
+            ]
+        }
+    ]
+}

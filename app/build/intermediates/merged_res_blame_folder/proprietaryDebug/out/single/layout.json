@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "org.jellyfin.mobile.app-mergeProprietaryDebugResources-80:/layout/fragment_compose.xml",
+        "source": "org.jellyfin.mobile.app-main-83:/layout/fragment_compose.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-mergeProprietaryDebugResources-80:/layout/fragment_settings.xml",
+        "source": "org.jellyfin.mobile.app-main-83:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-mergeProprietaryDebugResources-80:/layout/fragment_player.xml",
+        "source": "org.jellyfin.mobile.app-main-83:/layout/fragment_player.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-mergeProprietaryDebugResources-80:/layout/fragment_webview.xml",
+        "source": "org.jellyfin.mobile.app-main-83:/layout/fragment_webview.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-mergeProprietaryDebugResources-80:/layout/exo_player_control_view.xml",
+        "source": "org.jellyfin.mobile.app-main-83:/layout/exo_player_control_view.xml"
+    }
+]

@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "org.jellyfin.mobile.debug",
+  "variantName": "proprietaryDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 199,
+      "versionName": "0.0.1",
+      "outputFile": "resources-proprietaryDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

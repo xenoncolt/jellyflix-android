@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.jellyfin.mobile.app-mergeProprietaryDebugResources-79:/values-bn-rBD/values-bn-rBD.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\shsha\\Desktop\\Beta\\jellyflix-android\\app\\src\\main\\res\\values-bn-rBD\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "115,57",
+                        "endColumns": "53,56",
+                        "endOffsets": "164,109"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,109",
+                        "endColumns": "53,56",
+                        "endOffsets": "104,161"
+                    }
+                }
+            ]
+        }
+    ]
+}

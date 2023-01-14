@@ -1,0 +1,1 @@
+Cliente móvel para o Jellyfin, o sistema de mídia de software livre

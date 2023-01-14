@@ -1,0 +1,226 @@
+[
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_stop_black_32dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_stop_black_32dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/layout_fragment_settings.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_skip_previous_black_32dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_skip_previous_black_32dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_screen_unlock_white_24dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_screen_unlock_white_24dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_music_note_white_24dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_music_note_white_24dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_play_black_42dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_play_black_42dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_volume_white_24dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_volume_white_24dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/xml_automotive_app_desc.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/xml/automotive_app_desc.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable-hdpi_ic_notification.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable-hdpi/ic_notification.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_rewind_black_32dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_rewind_black_32dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_fullscreen_exit_white_32dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_fullscreen_exit_white_32dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/xml_backup_content.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/xml/backup_content.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/color-v24_splash_fill.xml.flat",
+        "source": "org.jellyfin.mobile.app-debug-82:/color-v24/splash_fill.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ripple_background.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ripple_background.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/layout_exo_player_control_view.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/layout/exo_player_control_view.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/layout_fragment_player.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/layout/fragment_player.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_video_settings_white_24dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_video_settings_white_24dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_skip_next_black_32dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_skip_next_black_32dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/font_quicksand.ttf.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/font/quicksand.ttf"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_screen_lock_white_24dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_screen_lock_white_24dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_splash.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_splash.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/layout_fragment_webview.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/layout/fragment_webview.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_slow_motion_video_white_24dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_slow_motion_video_white_24dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_pause_black_42dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_pause_black_42dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable-xhdpi_ic_notification.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable-xhdpi/ic_notification.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable-xxxhdpi_ic_notification.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable-xxxhdpi/ic_notification.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/layout_fragment_compose.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/layout/fragment_compose.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable-mdpi_ic_notification.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable-mdpi/ic_notification.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_subtitles_off_white_24dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_subtitles_off_white_24dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_fullscreen_enter_white_32dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_fullscreen_enter_white_32dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/xml_network_security_config.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/layout_activity_main.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/layout/activity_main.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "org.jellyfin.mobile.app-debug-82:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_playback_unlock_background.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/playback_unlock_background.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_fast_forward_black_32dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_fast_forward_black_32dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable-ldpi_ic_notification.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable-ldpi/ic_notification.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable-xxhdpi_ic_notification.png.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable-xxhdpi/ic_notification.png"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_brightness_white_24dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_brightness_white_24dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_subtitles_stateful_24dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_subtitles_stateful_24dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_settings_white_24dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_settings_white_24dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_playback_info_background.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/playback_info_background.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ripple_background_circular.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ripple_background_circular.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_subtitles_white_24dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_subtitles_white_24dp.xml"
+    },
+    {
+        "merged": "org.jellyfin.mobile.app-merged_res-81:/drawable_ic_info_white_24dp.xml.flat",
+        "source": "org.jellyfin.mobile.app-main-83:/drawable/ic_info_white_24dp.xml"
+    }
+]

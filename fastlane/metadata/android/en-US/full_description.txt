@@ -1,0 +1,17 @@
+Your media, on your terms.
+
+To use the app, you must have an account in Jellyflix.
+
+With a JellyFlix server, you can:
+
+* Watch Live TV
+* NetFlix, CW, Hulu, Prime Video, HBO, HBO MAX, Disney+ etc movies & shows
+* You can request any movies and shows in our <a herf="https://request.jellyflix.ga" target="_blank">Request site</a>
+* View your collection in an easy to use interface
+
+Developer:
+
+* Xenon Colt
+* Potato Sips
+
+This is the official JellyFlix app for Android. Thank you for using JellyFlix!
